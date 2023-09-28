@@ -6,7 +6,7 @@ int main() {
 	int			i;
 
 	i = 0;
-	while () {
+	while (1) {
 		std::cout << "> ";
 		std::getline(std::cin, input);
 		if (input == "EXIT")
