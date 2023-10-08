@@ -1,6 +1,6 @@
-NAME = megaphone
+NAME = Sed_is_for_losers
 
-SRCS = megaphone.cpp
+SRCS = srcs/main.cpp
 
 COMPILER = c++
 
@@ -11,7 +11,7 @@ OBJS = ${SRCS:.cpp=.o}
 all: ${NAME}
 
 ${NAME}: ${OBJS}
-		${COMPILER} ${FLAGS} ${OBJS} -o ${NAME}
+		${COMPILER} ${FLAGS} ${OBJS} -I includes -o ${NAME}
 
 clean:
 	rm -f ${OBJS}

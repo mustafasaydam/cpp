@@ -1,6 +1,7 @@
-NAME = megaphone
+NAME = harlFilter
 
-SRCS = megaphone.cpp
+SRCS = srcs/main.cpp\
+		srcs/Harl.cpp\
 
 COMPILER = c++
 
@@ -11,7 +12,7 @@ OBJS = ${SRCS:.cpp=.o}
 all: ${NAME}
 
 ${NAME}: ${OBJS}
-		${COMPILER} ${FLAGS} ${OBJS} -o ${NAME}
+		${COMPILER} ${FLAGS} ${OBJS} -I includes -o ${NAME}
 
 clean:
 	rm -f ${OBJS}

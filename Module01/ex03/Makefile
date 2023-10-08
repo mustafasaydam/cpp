@@ -1,11 +1,14 @@
-NAME = phonebook
+NAME = Unnecessary_violence
 
-SRCS = srcs/phonebook.cpp\
-		srcs/main.cpp\
-		srcs/contact.cpp
+SRCS = srcs/HumanA.cpp\
+		srcs/HumanB.cpp\
+		srcs/Weapon.cpp\
+		srcs/main.cpp
 
-INCLUDES = includes/contact.hpp\
-			includes/phonebook.hpp
+INCLUDES = includes/HumanA.hpp\
+		includes/HumanB.hpp\
+		includes/Weapon.hpp
+
 COMPILER = c++
 
 FLAGS = -std=c++98 -Wall -Werror -Wextra

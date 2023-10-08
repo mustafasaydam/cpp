@@ -1,6 +1,11 @@
-NAME = megaphone
+NAME = BraiiiiiiinnnzzzZ
 
-SRCS = megaphone.cpp
+SRCS = srcs/main.cpp\
+		srcs/newZombie.cpp\
+		srcs/Zombie.cpp\
+		srcs/randomChump.cpp
+
+INCLUDES = includes/Zombie.hpp
 
 COMPILER = c++
 
@@ -11,7 +16,7 @@ OBJS = ${SRCS:.cpp=.o}
 all: ${NAME}
 
 ${NAME}: ${OBJS}
-		${COMPILER} ${FLAGS} ${OBJS} -o ${NAME}
+		${COMPILER} ${FLAGS} ${OBJS} -I includes -o ${NAME}
 
 clean:
 	rm -f ${OBJS}
