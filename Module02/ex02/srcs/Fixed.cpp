@@ -157,7 +157,7 @@ Fixed	&Fixed::max(Fixed &v1, Fixed &v2){
 	return (v2);
 }
 
-//operateur de surcharge
+
 std::ostream	&operator<<(std::ostream &o, Fixed const &fix){
 	o << fix.toFloat();
 	return (o);
