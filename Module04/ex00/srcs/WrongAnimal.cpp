@@ -2,7 +2,7 @@
 
 WrongAnimal::WrongAnimal()
 {
-	this->_type = "Inconnu";
+	this->_type = "Unknown";
 	std::cout << "Constructor of WrongAnimal" << std::endl;
 }
 
