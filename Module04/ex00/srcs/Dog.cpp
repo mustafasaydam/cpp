@@ -6,7 +6,7 @@ Dog::Dog()
 	std::cout << "Constructor of Dog" << std::endl;
 }
 
-Dog::Dog(const Dog &src):Animal()
+Dog::Dog(const Dog &src) : Animal()
 {
 	*this = src;
 	std::cout << "Constructor Copy of Dog" << std::endl;

@@ -32,7 +32,4 @@ fclean:
 
 re: fclean all
 
-%.o: %.cpp
-	${COMPILER} ${FLAGS} -c $< -o ${<:.cpp=.o}
-
 .PHONY: all clean fclean re

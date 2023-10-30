@@ -18,7 +18,7 @@ int main()
 	for (int k = 0; k < 100; k++){
 		brain_test->ideas[k] = "hungry";
 	}
-
+	std::cout << animals[0] << std::endl; 
 	*(animals[1]) = *(animals[0]);
 	std::cout << animals[0]->getBrain()->ideas[0] << std::endl;
 	std::cout << animals[1]->getBrain()->ideas[0] << std::endl;

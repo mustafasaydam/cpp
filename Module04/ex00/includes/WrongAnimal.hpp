@@ -15,6 +15,4 @@ class WrongAnimal
 		void	makeSound()const;
 };
 
-
-
 #endif
