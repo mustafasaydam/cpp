@@ -7,12 +7,6 @@
 #include <map>
 #include <algorithm>
 
-class easyfind
-{
-	public:
-
-};
-
 class	NoOccurenceException : public std::exception{
 	public:
 		virtual const char*	what() const throw (){
